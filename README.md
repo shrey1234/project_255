@@ -1,1 +1,4 @@
-# project_255
+# CMPE-255 Project - Detection of Phishing/Suspicious Emails
+Abstract—This paper focuses on proposing a model for phishing email detection using a set of features from the different
+email parts. Features are extracted from the EML file using the python program in the preprocessing phase. 15 features in total are extracted from the EML file. These features will be assigned weight according to the importance of each feature. Different classifiers will be used to classify emails based on the features
+extracted from the email. The goal is to find the best suitable classifier for phishing email detection with the greatest accuracy. The model discussed here has successfully achieved 93.65% accuracy with the Random forest algorithm. Other classification algorithms are also analyzed before achieving this accuracy.
